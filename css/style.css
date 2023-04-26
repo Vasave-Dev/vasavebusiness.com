@@ -1980,6 +1980,12 @@ select.form-control:not([size]):not([multiple]) {
     background-position: left bottom;
     background-repeat: no-repeat;
 }
+.heading_main h6 {
+    text-transform: capitalize;
+    padding: 10px 0 10px 0;
+    margin: 10px 0 10px 0;
+}
+
 
 #heading_main h2 {
 	align-content: center;
@@ -2379,3 +2385,20 @@ section.inner_banner h1 {
 }
 .table_border table tr th, 
 .table_border table tr td{border: 1px solid black;padding: 10px;}
+.bullet-list li{
+	list-style-type: initial;
+    margin-left: 30px;
+    padding-left: 10px;
+}
+.pdfdownloadbtn{
+	border: 1px solid #285da2;
+    float: right;
+    background: white;
+    color: #285da2;
+    padding: 5px 8px;
+	cursor: pointer;
+}
+.pdfdownloadbtn svg{    width: 30px;
+    position: relative;
+    top: 5px;
+    padding-right: 10px;}
